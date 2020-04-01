@@ -1,5 +1,5 @@
 fn main() {
-
+    /*
     let mensaje = "Hola, soy una variable en el bloque main.";
     {
         let mensaje = "Hola, soy una variable en el bloque anidado.";
@@ -8,4 +8,14 @@ fn main() {
         
     }
     println!("{}", mensaje);
+    */
+    let calificacion: i8 = 10;
+
+    let mensaje = if calificacion == 10 {
+        String::from("¡Felicitaciones!")
+    }else {
+        String::from("Necesitas estudiar más")
+    };
+    println!("{}", mensaje);
+
 }
